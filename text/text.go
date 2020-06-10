@@ -21,6 +21,5 @@ func ReadText(fpath string) (texts []string) {
 	for scanner.Scan() {
 		texts = append(texts, scanner.Text())
 	}
-	fmt.Println()
 	return
 }
